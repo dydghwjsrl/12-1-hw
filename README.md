@@ -57,7 +57,8 @@ $$\frac{Y(s)} {T_d(s)} = \frac{G(s)} {1+G_1(s)G(S)}$$
 
 
 이다 결국 Disturbance가 $Y(s)$에 미치는 영향은 아래 매트랩으로 구한 식에  
-T_d(s)를 곱하면 된다.
+T_d(s)를 곱하면 된다.  
+
 <img src = "https://drive.google.com/uc?id=1aEqeBs0U3x9GLeS2yDzfCkZzrO2kd49t">  
 
 ## P4.12  
