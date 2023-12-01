@@ -105,7 +105,7 @@ actualvalue값은 K_1과 K_2값에 각각 1을 넣은 것을 의미한다.
 
 <img src = "https://drive.google.com/uc?id=1jV8CHvg0gNa9IGX96J2rAecduJq4-ZHA">
 
-### (a) K = 20일 때 $\Theta$ _d(t)의 계단변화에 대한 시스템의 응답 $\Theta$_d(t)를 결정하라.  
+### (a) K = 20일 때 θ_d(t)의 계단변화에 대한 시스템의 응답 θ_d(t)를 결정하라.  
 
 <img src = "https://drive.google.com/uc?id=1jIuBiw8XtJluSKSCL3c3lcAYBJQj9Obr">  
 
@@ -122,17 +122,20 @@ actualvalue값은 K_1과 K_2값에 각각 1을 넣은 것을 의미한다.
 
 계단 입력이기 때문에 $1/s$를 곱하면 된다. 위와 같이 계산하였다.  
 
-일단 $\Theta$(s)값은 위와 같이 나타났다.  
+일단 θ(s)값은 위와 같이 나타났다.  
 
-이제 $\Theta$(t)값은 역라플라스 변환을 하면 알 수 있다.  
+이제 θ(t)값은 역라플라스 변환을 하면 알 수 있다.  
+
 <img src = "https://drive.google.com/uc?id=1CA_wSz2OPBZ91A0TmZCP4kkzT2KPheFA">  
+
 역라플라스 변환을 하였고 위와 같이 $\Theta$(t)값을 구할 수 있었다.  
 
-### (b) $\Theta$_d(t) = 0으로 가정하여 부하외란 $T_d(s) = A/s$의 영향을 구하라  
+### (b) θ_d(t) = 0으로 가정하여 부하외란 $T_d(s) = A/s$의 영향을 구하라  
 
 입력이 0일 때 Loop Gain을 구하면 아래와 같이 나타난다.매트랩에서 사용한 코딩을 첨부하였다.  
 매트랩으로 계산한 값을 정리한 다음 거기에 T_d(s)값을 곱한 다음에 steady state 
-output을 알기 위한 final value Theorem을 계산한 값 역시 아래와 같이 나타난다    
+output을 알기 위한 final value Theorem을 계산한 값 역시 아래와 같이 나타난다   
+
 <img src = "https://drive.google.com/uc?id=1vzu_gU31b283qfzTQ0XCb6EQFPG69N1U">  
 
  
@@ -143,8 +146,8 @@ output을 알기 위한 final value Theorem을 계산한 값 역시 아래와 �
 ($T_d(s) = 0$으로 가정한다)
 
 시간도메인인 t에서 t를 입력했기 때문에 이것을 라플라스화 한 다음 그 값을 넣어주어야 한다.  
-$\Theta$_d(t) = t 를 넣는 것은 $\Theta$_d(s) = $\frac{1} {s^2}$를 입력하는 것과 같다.  
-에러시그널 공식에 $\Theta$_d(s)값과 $\Theta$_d(s)값을 넣은 것을 매트랩으로 계산하였고 steady state에러를 찾기 위해 s를 곱해주고 s값을 0으로 보내는 극한을 계산하였다.  
+θ_d(t) = t 를 넣는 것은 θ_d(s) = $\frac{1} {s^2}$를 입력하는 것과 같다.  
+에러시그널 공식에 θ_d(s)값과 θ_d(s)값을 넣은 것을 매트랩으로 계산하였고 steady state에러를 찾기 위해 s를 곱해주고 s값을 0으로 보내는 극한을 계산하였다.  
 
 <img src = "https://drive.google.com/uc?id=11jNZQ5Im6DKy2GXAyg0QcV_g2AFBI1RF">  
 
